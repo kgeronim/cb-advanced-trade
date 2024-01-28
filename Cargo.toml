@@ -6,3 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = { version = "1.35.1", features = ["full"] }
+reqwest = "0.11.23"
+serde_json = "1.0.111"
+serde = {version = "1.0.195", features = ["derive"] }
+jwt-compact = {version = "0.8.0", features = ['p256', 'es256k']}
+rand = "0.8.5"
+p256 = "0.13.2"
+chrono = "0.4.33"
+hex = "0.4.3"
